@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import CategoryModal from "./CategoryModal";
@@ -11,7 +10,7 @@ const categories = [
     icon: "🍽️",
     color: "bg-gradient-to-br from-orange-400 to-red-500",
     lightColor: "bg-gradient-to-br from-orange-50 to-red-50",
-    items: "2000+ items",
+    items: "35+ items",
     description: "Fresh groceries & snacks"
   },
   {
@@ -20,7 +19,7 @@ const categories = [
     icon: "🥤",
     color: "bg-gradient-to-br from-blue-400 to-cyan-500",
     lightColor: "bg-gradient-to-br from-blue-50 to-cyan-50",
-    items: "500+ items",
+    items: "25+ items",
     description: "Drinks & beverages"
   },
   {
@@ -29,7 +28,7 @@ const categories = [
     icon: "💄",
     color: "bg-gradient-to-br from-pink-400 to-purple-500",
     lightColor: "bg-gradient-to-br from-pink-50 to-purple-50",
-    items: "800+ items",
+    items: "30+ items",
     description: "Beauty & personal care"
   },
   {
@@ -38,7 +37,7 @@ const categories = [
     icon: "🧴",
     color: "bg-gradient-to-br from-green-400 to-teal-500",
     lightColor: "bg-gradient-to-br from-green-50 to-teal-50",
-    items: "1200+ items",
+    items: "40+ items",
     description: "Daily necessities"
   },
   {
@@ -47,7 +46,7 @@ const categories = [
     icon: "🏠",
     color: "bg-gradient-to-br from-indigo-400 to-purple-500",
     lightColor: "bg-gradient-to-br from-indigo-50 to-purple-50",
-    items: "900+ items",
+    items: "32+ items",
     description: "Home & kitchen"
   },
   {
@@ -56,7 +55,7 @@ const categories = [
     icon: "📱",
     color: "bg-gradient-to-br from-gray-500 to-gray-700",
     lightColor: "bg-gradient-to-br from-gray-50 to-slate-50",
-    items: "300+ items",
+    items: "28+ items",
     description: "Electronics & gadgets"
   }
 ];

@@ -66,6 +66,66 @@ const categoryProducts: { [key: string]: Product[] } = {
       discount: 20,
       inStock: true,
       description: "Authentic Nepali spice blend with cardamom, cinnamon, and cloves. Perfect for traditional cooking."
+    },
+    {
+      id: 19,
+      name: "Himalayan Honey",
+      price: 1200,
+      originalPrice: 1500,
+      image: "🍯",
+      rating: 4.8,
+      reviews: 156,
+      discount: 20,
+      inStock: true,
+      description: "Pure Himalayan honey harvested from mountain regions. Natural sweetener with health benefits."
+    },
+    {
+      id: 20,
+      name: "Instant Noodles",
+      price: 45,
+      originalPrice: 55,
+      image: "🍜",
+      rating: 4.2,
+      reviews: 89,
+      discount: 18,
+      inStock: true,
+      description: "Quick and tasty instant noodles. Perfect for a quick meal anytime."
+    },
+    {
+      id: 21,
+      name: "Biscuit Pack",
+      price: 125,
+      originalPrice: 150,
+      image: "🍪",
+      rating: 4.4,
+      reviews: 234,
+      discount: 17,
+      inStock: true,
+      description: "Crunchy and delicious biscuits. Great for tea time and snacking."
+    },
+    {
+      id: 22,
+      name: "Cooking Oil",
+      price: 380,
+      originalPrice: 450,
+      image: "🫗",
+      rating: 4.3,
+      reviews: 167,
+      discount: 16,
+      inStock: true,
+      description: "Pure cooking oil for all your frying and cooking needs."
+    },
+    {
+      id: 23,
+      name: "Potato Chips",
+      price: 85,
+      originalPrice: 100,
+      image: "🥔",
+      rating: 4.1,
+      reviews: 123,
+      discount: 15,
+      inStock: true,
+      description: "Crispy and salty potato chips. Perfect snack for any occasion."
     }
   ],
   "Beverages": [
@@ -104,6 +164,54 @@ const categoryProducts: { [key: string]: Product[] } = {
       discount: 20,
       inStock: true,
       description: "100% natural fruit juice with no added preservatives. Refreshing and healthy."
+    },
+    {
+      id: 24,
+      name: "Mineral Water",
+      price: 25,
+      originalPrice: 30,
+      image: "💧",
+      rating: 4.5,
+      reviews: 345,
+      discount: 17,
+      inStock: true,
+      description: "Pure mineral water sourced from natural springs. Refreshing and clean."
+    },
+    {
+      id: 25,
+      name: "Coffee Powder",
+      price: 320,
+      originalPrice: 400,
+      image: "☕",
+      rating: 4.6,
+      reviews: 167,
+      discount: 20,
+      inStock: true,
+      description: "Premium coffee powder for the perfect morning brew."
+    },
+    {
+      id: 26,
+      name: "Energy Drink",
+      price: 95,
+      originalPrice: 110,
+      image: "⚡",
+      rating: 4.2,
+      reviews: 89,
+      discount: 14,
+      inStock: true,
+      description: "Refreshing energy drink to boost your energy levels."
+    },
+    {
+      id: 27,
+      name: "Soft Drink",
+      price: 55,
+      originalPrice: 65,
+      image: "🥤",
+      rating: 4.3,
+      reviews: 234,
+      discount: 15,
+      inStock: true,
+      description: "Fizzy and refreshing soft drink. Perfect for any occasion."
     }
   ],
   "Beauty & Care": [
@@ -142,6 +250,66 @@ const categoryProducts: { [key: string]: Product[] } = {
       discount: 25,
       inStock: true,
       description: "Handmade natural soap with essential oils. Gentle and moisturizing for all skin types."
+    },
+    {
+      id: 28,
+      name: "Face Wash",
+      price: 280,
+      originalPrice: 350,
+      image: "🧴",
+      rating: 4.4,
+      reviews: 156,
+      discount: 20,
+      inStock: true,
+      description: "Gentle face wash that cleanses and refreshes your skin."
+    },
+    {
+      id: 29,
+      name: "Hair Oil",
+      price: 220,
+      originalPrice: 280,
+      image: "🫗",
+      rating: 4.5,
+      reviews: 123,
+      discount: 21,
+      inStock: true,
+      description: "Nourishing hair oil with natural herbs for healthy and shiny hair."
+    },
+    {
+      id: 30,
+      name: "Body Lotion",
+      price: 380,
+      originalPrice: 450,
+      image: "🧴",
+      rating: 4.3,
+      reviews: 98,
+      discount: 16,
+      inStock: true,
+      description: "Moisturizing body lotion that keeps your skin soft and smooth."
+    },
+    {
+      id: 31,
+      name: "Sunscreen",
+      price: 650,
+      originalPrice: 800,
+      image: "☀️",
+      rating: 4.7,
+      reviews: 234,
+      discount: 19,
+      inStock: true,
+      description: "SPF 50 sunscreen for complete protection from harmful UV rays."
+    },
+    {
+      id: 32,
+      name: "Perfume",
+      price: 850,
+      originalPrice: 1000,
+      image: "🌸",
+      rating: 4.6,
+      reviews: 167,
+      discount: 15,
+      inStock: true,
+      description: "Long-lasting fragrance with floral notes. Perfect for daily wear."
     }
   ],
   "Daily Essentials": [
@@ -180,6 +348,66 @@ const categoryProducts: { [key: string]: Product[] } = {
       discount: 15,
       inStock: true,
       description: "Fluoride toothpaste for complete oral care. Prevents cavities and freshens breath."
+    },
+    {
+      id: 33,
+      name: "Toothbrush",
+      price: 55,
+      originalPrice: 70,
+      image: "🪥",
+      rating: 4.3,
+      reviews: 234,
+      discount: 21,
+      inStock: true,
+      description: "Soft bristle toothbrush for gentle and effective cleaning."
+    },
+    {
+      id: 34,
+      name: "Hand Sanitizer",
+      price: 120,
+      originalPrice: 150,
+      image: "🧴",
+      rating: 4.6,
+      reviews: 345,
+      discount: 20,
+      inStock: true,
+      description: "Alcohol-based hand sanitizer that kills 99.9% of germs."
+    },
+    {
+      id: 35,
+      name: "Tissues",
+      price: 75,
+      originalPrice: 90,
+      image: "🤧",
+      rating: 4.2,
+      reviews: 167,
+      discount: 17,
+      inStock: true,
+      description: "Soft facial tissues for everyday use. Gentle on skin."
+    },
+    {
+      id: 36,
+      name: "Dishwashing Liquid",
+      price: 180,
+      originalPrice: 220,
+      image: "🧽",
+      rating: 4.4,
+      reviews: 198,
+      discount: 18,
+      inStock: true,
+      description: "Effective dishwashing liquid that cuts through grease and grime."
+    },
+    {
+      id: 37,
+      name: "Floor Cleaner",
+      price: 220,
+      originalPrice: 280,
+      image: "🧽",
+      rating: 4.3,
+      reviews: 145,
+      discount: 21,
+      inStock: true,
+      description: "Multi-surface floor cleaner that leaves floors sparkling clean."
     }
   ],
   "Household Items": [
@@ -218,6 +446,66 @@ const categoryProducts: { [key: string]: Product[] } = {
       discount: 25,
       inStock: true,
       description: "Set of airtight storage containers. Perfect for keeping food fresh and organized."
+    },
+    {
+      id: 38,
+      name: "Plastic Plates Set",
+      price: 320,
+      originalPrice: 400,
+      image: "🍽️",
+      rating: 4.2,
+      reviews: 123,
+      discount: 20,
+      inStock: true,
+      description: "Durable plastic plates set. Perfect for everyday dining."
+    },
+    {
+      id: 39,
+      name: "Glass Set",
+      price: 280,
+      originalPrice: 350,
+      image: "🥛",
+      rating: 4.4,
+      reviews: 156,
+      discount: 20,
+      inStock: true,
+      description: "Clear glass set for water and beverages. Elegant and practical."
+    },
+    {
+      id: 40,
+      name: "Trash Bags",
+      price: 95,
+      originalPrice: 120,
+      image: "🗑️",
+      rating: 4.1,
+      reviews: 234,
+      discount: 21,
+      inStock: true,
+      description: "Strong and durable trash bags for household waste management."
+    },
+    {
+      id: 41,
+      name: "Kitchen Towels",
+      price: 150,
+      originalPrice: 180,
+      image: "🧽",
+      rating: 4.3,
+      reviews: 167,
+      discount: 17,
+      inStock: true,
+      description: "Absorbent kitchen towels for cleaning and drying."
+    },
+    {
+      id: 42,
+      name: "Candles",
+      price: 180,
+      originalPrice: 220,
+      image: "🕯️",
+      rating: 4.5,
+      reviews: 89,
+      discount: 18,
+      inStock: true,
+      description: "Scented candles for creating a cozy atmosphere at home."
     }
   ],
   "Electronics": [
@@ -256,6 +544,54 @@ const categoryProducts: { [key: string]: Product[] } = {
       discount: 20,
       inStock: true,
       description: "Portable Bluetooth speaker with excellent sound quality. Perfect for music lovers."
+    },
+    {
+      id: 43,
+      name: "Power Bank",
+      price: 1500,
+      originalPrice: 1800,
+      image: "🔋",
+      rating: 4.5,
+      reviews: 167,
+      discount: 17,
+      inStock: true,
+      description: "High-capacity power bank for charging devices on the go."
+    },
+    {
+      id: 44,
+      name: "USB Cable",
+      price: 250,
+      originalPrice: 300,
+      image: "🔌",
+      rating: 4.3,
+      reviews: 123,
+      discount: 17,
+      inStock: true,
+      description: "Universal USB cable for data transfer and charging."
+    },
+    {
+      id: 45,
+      name: "Headphones",
+      price: 1200,
+      originalPrice: 1500,
+      image: "🎧",
+      rating: 4.6,
+      reviews: 198,
+      discount: 20,
+      inStock: true,
+      description: "Comfortable headphones with excellent sound quality."
+    },
+    {
+      id: 46,
+      name: "Extension Cord",
+      price: 450,
+      originalPrice: 550,
+      image: "🔌",
+      rating: 4.2,
+      reviews: 89,
+      discount: 18,
+      inStock: true,
+      description: "Multi-outlet extension cord for your electrical needs."
     }
   ]
 };

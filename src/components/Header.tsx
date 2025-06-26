@@ -3,7 +3,17 @@ import { Search, User, Heart, ShoppingCart, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-const Header = () => {
+interface HeaderProps {
+  onCategoryClick?: (categoryName: string) => void;
+}
+
+const Header = ({ onCategoryClick }: HeaderProps) => {
+  const handleCategoryNavClick = (categoryName: string) => {
+    if (onCategoryClick) {
+      onCategoryClick(categoryName);
+    }
+  };
+
   return (
     <header className="bg-white shadow-md border-b-2 border-orange-100">
       {/* Main header */}
@@ -72,21 +82,36 @@ const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4">
             <div className="flex space-x-8">
-              <a href="#" className="text-gray-800 hover:text-orange-600 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded px-2 py-1">
+              <button 
+                onClick={() => handleCategoryNavClick("All Categories")}
+                className="text-gray-800 hover:text-orange-600 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded px-2 py-1"
+              >
                 All Categories
-              </a>
-              <a href="#" className="text-gray-800 hover:text-orange-600 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded px-2 py-1">
+              </button>
+              <button 
+                onClick={() => handleCategoryNavClick("Food & Snacks")}
+                className="text-gray-800 hover:text-orange-600 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded px-2 py-1"
+              >
                 Food & Beverages
-              </a>
-              <a href="#" className="text-gray-800 hover:text-orange-600 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded px-2 py-1">
+              </button>
+              <button 
+                onClick={() => handleCategoryNavClick("Daily Essentials")}
+                className="text-gray-800 hover:text-orange-600 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded px-2 py-1"
+              >
                 Daily Essentials
-              </a>
-              <a href="#" className="text-gray-800 hover:text-orange-600 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded px-2 py-1">
+              </button>
+              <button 
+                onClick={() => handleCategoryNavClick("Beauty & Care")}
+                className="text-gray-800 hover:text-orange-600 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded px-2 py-1"
+              >
                 Beauty Products
-              </a>
-              <a href="#" className="text-gray-800 hover:text-orange-600 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded px-2 py-1">
+              </button>
+              <button 
+                onClick={() => handleCategoryNavClick("Household Items")}
+                className="text-gray-800 hover:text-orange-600 font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 rounded px-2 py-1"
+              >
                 Household Items
-              </a>
+              </button>
             </div>
             <div className="flex items-center space-x-3 text-sm text-gray-600">
               <span className="font-medium">🇳🇵 Nepal</span>
