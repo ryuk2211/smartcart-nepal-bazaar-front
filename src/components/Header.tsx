@@ -1,5 +1,4 @@
-
-import { Search, User, Heart, Cart } from "lucide-react";
+import { Search, User, Heart, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -51,7 +50,7 @@ const Header = () => {
               <span className="text-xs text-gray-600">Wishlist</span>
             </Button>
             <Button variant="ghost" className="flex flex-col items-center p-2 relative">
-              <Cart className="h-6 w-6 text-gray-600" />
+              <ShoppingCart className="h-6 w-6 text-gray-600" />
               <span className="text-xs text-gray-600">Cart</span>
               <span className="absolute -top-1 -right-1 bg-nepali-crimson text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">3</span>
             </Button>

@@ -1,7 +1,6 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Heart, Cart } from "lucide-react";
+import { Heart, ShoppingCart } from "lucide-react";
 
 const products = [
   {
@@ -119,7 +118,7 @@ const FeaturedProducts = () => {
                     size="sm" 
                     className="w-full bg-nepali-saffron hover:bg-nepali-gold text-white mt-3"
                   >
-                    <Cart className="h-4 w-4 mr-2" />
+                    <ShoppingCart className="h-4 w-4 mr-2" />
                     Add to Cart
                   </Button>
                 </div>
