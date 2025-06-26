@@ -1,6 +1,6 @@
 
 import Header from "@/components/Header";
-import HeroBanner from "@/components/HeroBanner";
+import WelcomeSection from "@/components/WelcomeSection";
 import CategoryGrid from "@/components/CategoryGrid";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import SpecialOffers from "@/components/SpecialOffers";
@@ -10,10 +10,12 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <HeroBanner />
-      <CategoryGrid />
-      <FeaturedProducts />
-      <SpecialOffers />
+      <main>
+        <WelcomeSection />
+        <CategoryGrid />
+        <FeaturedProducts />
+        <SpecialOffers />
+      </main>
       <Footer />
     </div>
   );
